@@ -1,0 +1,51 @@
+﻿/* 스타일 초기화 */
+* { margin: 0px ; padding: 0px ; }
+header, body, footer { font-size: 14px; font-family: 나눔고딕,굴림,돋음,'Times New Roman',serif; width: 100%; }
+header, footer { text-align : center ; }
+body { margin: auto; } /*가운데 정렬*/
+footer { position: fixed; bottom: 0px; } /*footer 고정*/
+
+/* 공통 스타일 */
+h1 { padding: 15px; font-size: 30px ; color: white; }
+h2 { font-size: 15px; color: white; }
+/*글자의 그림자*/
+h3 { margin: 10px; font-size: 15px; color: rgb(3, 15, 41); text-shadow: 4px 4px 7px rgb(3, 15, 41) ; }
+/*배경그림 넣음 가로로만 반복 세로는 배경없음*/
+h1, h2 { background-image: url(sky.png); background-repeat: repeat-x; }
+
+img { border: 0; padding: 2px; }
+
+/*메뉴버튼 스타일*/
+nav { margin: 5px 5px; }
+nav > span > a { font-style: bold; margin: 0 ; padding: 3px; border: 2px solid rgb(3, 15, 41); float: right; text-decoration: none; background:rgb(3, 15, 41); color: white; }
+/*마우스 커서가 올라갔을떄 색 바뀜*/
+nav > span > a:hover { background: navy; color: white; }
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+	section { width: 80%; float: left; }
+	aside { width: 20%; text-align: center; float: right; }
+	footer { clear: both; }
+}
+/*class부분*/
+.content  { clear: both; }
+.section1 ul li { list-style-position: inside; list-style-image: url("li.jpg"); }
+
+/* mintro.html 적용 스타일 자기소개 사진*/
+#stu-pic { width: 6em; height: 8em; float: left; }
+
+/* minfo.html 적용 스타일 학력 테이블*/
+#year-table { table-layout: auto; width: 80%; border-collapse: seperate; }
+#year-table thead { background: #aec8ff; }
+/*로고 뒤에 불투명하게 위치지정*/
+#logo { position: fixed; top:130px; left: 70px; opacity: 0.3; } 
+
+/* mstudy.html 적용 스타일 */
+video { margin: 5px; width: 300px; height: 200px; }
+
+/* mcareer.html 적용 스타일 */
+/*세미나 부분 사진 조정*/
+.semi-pic { width: 6em; height: 6em;  }
+#pic-container { overflow: hidden; }
+#pic-container:hover { height: 100px; }
+#pic1:hover { -webkit-transform: translate(150px,50px) scale(7,7); transform: scale(0.7); }
+#pic2:hover { -webkit-transform: translate(100px,50px) scale(7,7) ; transform: scale(0.7); }
+#pic3:hover { -webkit-transform: translate(30px,50px) scale(7,7); transform: scale(0.7); }
