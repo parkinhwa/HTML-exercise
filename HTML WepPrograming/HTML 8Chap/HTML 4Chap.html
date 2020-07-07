@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML 기본 레이아웃</title>
+    <link rel="stylesheet" href="HTML_8Chap.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="main-header">
+            <hgroup>
+                <h1>HTML5 Example Preview</h1>
+                <h3>한빛아카데미</h3>
+            </hgroup>
+        </header>
+        <nav id="main-navigation">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <span class="menu-title">HTML5</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">CSS3</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">JS</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                            <li class="inner-menu-item"><a href="#">DATA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <div class="search-bar">
+                    <form>
+                        <input type="text" class="input-search" />
+                        <input type="submit" class="input-search-submit" value="검색" />
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="content">
+            <section id="main-section">
+                <article>
+                    <div class="article-header">
+                        <h1 class=" article-title">HTML 개요와 활용</h1>
+                    </div>
+                    <div class="article-body">
+                        <br>
+                        <p>HTML이란</p><br>
+                        <p>
+                            HTML 은 Hyper Text Markup Language 약어로 HyperText(웹 페이지에서 다른 페이지로 이동할
+                            수 있도록하는 것) 기능을 가진 문서를 만드는 언어입니다.
+                            다시 말해, 구조를 설계할 때 사용되는 언어로 hyper link 시스템을 가지고 있으며,
+                            흔히 말하는 웹 페이지를 위한 마크업 언어라고 할 수 있습니다.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <div class="article-header">
+                        <h1 class=" article-title">HTML 응용과 실습</h1>
+                    </div>
+                    <div class="article-body">                
+                        <br>
+                        <p>응용 실습</p><br>
+                        <p>
+                            웹 페이지(web page)는 월드 와이드 웹 상에 있는 개개의 문서를 가리킵니다.
+.gif, jpg, .Ai, .pdf, .doc, .hwp 이와 같은 확장자 포맷이 있듯이 HTML 은 .htm, .html 확장자 포맷을 가지고 있습니다.
+이 html 문서는 단순히 텍스트 파일에 불과하고 웹 브라우저가 해석을 해서 구조를 통해 화면에 렌더링 해주게 되고 사용자는 View 라고 하는 스크린을 통해 접하게 되는 것입니다.
+이 문서도 역시 엄연한 웹 페이지이며, 따라서 현재 이 문서를 읽고 있다면 '웹 페이지를 보고 있다'고도 할 수 있습니다.
+그리고 이 web 이란 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념입니다.
+인터넷이란 이름은 '네트워크의 네트워크'를 구현하여 모든 컴퓨터를 하나의 통신망 안에 연결(Inter Network)하고자 하는 의도에서
+이를 줄여 인터넷(Internet)이라고 처음 명명하였던데 어원을 두고 있습니다.
+이러한 개념들을 상세히 숙지하고 있을 필요는 없지만 이 분야를 공부하고자 한다면 배경 지식정도는 알아두면 좋을 것 같습니다.
+또한 앞으로 이 마크업 언어를 숙지하는데 있어 항상 시멘틱 마크업을 목표로 나아가야 할 것입니다.
+시멘틱 마크업(Semantic Markup) 은 웹 사이트(페이지)의 콘텐츠를 설명하는데 사용되는 마크업 언어이고,
+HTML 은 콘텐츠의 의미를 설명하는데 유일한 목적을 가집니다.
+앞으로 공부할 CSS 가 비주얼 디자인(Visual Design) 이라면 HTML 은 구조적 설계(Structure Design) 이라 할 수 있습니다.
+                        </p>
+                        <br><br><br><br>
+                    </div>
+                </article>
+            </section>
+            <aside id="main-aside">
+                <div class="aside-list">
+                    <h3>카테고리</h3>
+                    <ul>
+                        <li><a href="#">DATA</a></li>
+                        <li><a href="#">DATA</a></li>
+                    </ul>
+                </div>
+                <div class="aside-list">
+                    <h3>최근 글</h3>
+                    <ul>
+                        <li><a href="#">DATA</a></li>
+                        <li><a href="#">DATA</a></li>
+                    </ul>
+                </div>
+            </aside>
+    </div>
+        <footer id="main-footer">
+            <a href="#">ITCookBook HTML5 Programming</a>
+        </footer>
+    </div>
+
+</body>
+</html>
